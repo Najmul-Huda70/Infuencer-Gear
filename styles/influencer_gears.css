@@ -1,0 +1,36 @@
+/* share styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+.primary-color {
+  color: #3a3a3a;
+}
+/* header section style */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.section-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.list,
+.icon {
+  list-style: none;
+}
+.list a,
+.icon a {
+  text-decoration: none;
+}
