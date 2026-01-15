@@ -8,6 +8,20 @@
 .primary-color {
   color: #3a3a3a;
 }
+.secondary-color {
+  color: rgba(24, 25, 31, 1);
+}
+.btn {
+  color: #ffffff;
+  background-color: #e02c6d;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 20px;
+  margin-top: 16px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
 /* header section style */
 .header-section {
   display: flex;
@@ -33,4 +47,78 @@
 .list a,
 .icon a {
   text-decoration: none;
+}
+/* journey section related */
+.start-journey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+  margin: 100px;
+}
+.start-journey .text {
+  max-width: 550px;
+}
+.start-journey .text h1 {
+  font-size: 3.25rem;
+  font-weight: bold;
+}
+.start-journey .text p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.start-journey .image {
+  min-height: 475px;
+  background-image: url("/images/Circle\ design.svg");
+  background-repeat: no-repeat;
+}
+.start-journey img {
+  width: 420px;
+  /* align  */
+  margin-top: 50px;
+  margin-right: 100px;
+}
+/* grid image styles */
+.grid-image {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 75%;
+  margin: 0 auto;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+/* popular collection */
+.popular-collection {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 30px;
+}
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+  padding: 14px;
+}
+.title {
+  margin-bottom: 6px;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 70px;
+}
+.card p {
+  color: #787885;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 1.8%;
 }
