@@ -22,6 +22,7 @@
   font-size: 1rem;
   font-weight: 700;
 }
+
 /* header section style */
 .header-section {
   display: flex;
@@ -31,7 +32,7 @@
   margin-top: 60px;
 }
 .section-heading {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -97,11 +98,18 @@
   align-items: center;
   margin: 0 auto;
 }
+.line-height {
+  margin-bottom: 16px;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 70px;
+}
 .items-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   gap: 30px;
+  margin-bottom: 30px;
 }
 .card {
   border: none;
@@ -113,12 +121,91 @@
   margin-bottom: 6px;
   font-size: 1.75rem;
   font-weight: 500;
-  line-height: 70px;
+  line-height: 40px;
 }
+
 .card p {
   color: #787885;
   font-size: 0.85rem;
   font-weight: 700;
   line-height: 143%;
   letter-spacing: 1.8%;
+}
+.see-more {
+  text-align: right;
+  color: #e02c6d;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.right-btn {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+/* features section related */
+.feature-section {
+  display: flex;
+  margin: 100px auto;
+  width: 71%;
+
+  gap: 100px;
+}
+.features {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 60px;
+  color: #0a0826;
+  margin-bottom: 16px;
+}
+.amet {
+  max-width: 500px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin-bottom: 16px;
+}
+.join-now {
+  border-radius: 0px;
+}
+/* footer related styles */
+footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #03224e;
+  color: #ffffff;
+}
+
+.pad {
+  width: 260px;
+  padding: 50px 0;
+}
+.gap-below {
+  margin-bottom: 8px;
+}
+.copy {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer .icons i {
+  color: #ffffff;
+  padding-top: 10px;
+}
+footer .icons a {
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(253, 254, 255, 0.1);
+  border-radius: 50%;
 }
