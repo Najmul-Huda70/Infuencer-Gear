@@ -71,7 +71,7 @@
 }
 .start-journey .image {
   min-height: 475px;
-  background-image: url("/images/Circle\ design.svg");
+  background-image: url("./images/Circle\ design.svg");
   background-repeat: no-repeat;
 }
 .start-journey img {
